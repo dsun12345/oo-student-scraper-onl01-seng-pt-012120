@@ -8,7 +8,7 @@ class Scraper
     students = []
     
     page.css("div.student-card").each do |student|
-      
+      name = 
       
     
   end
