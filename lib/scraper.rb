@@ -14,7 +14,7 @@ class Scraper
       scraped_student = {:name => name,
                 :location => location,
                 :profile_url => profile_url}
-      students << student_info 
+      students << scraped_student
     end 
     students
   end
