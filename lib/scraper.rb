@@ -15,7 +15,8 @@ class Scraper
                 :location => location,
                 :profile_url => profile_url}
       students << student_info 
-      
+    end 
+    
     
   end
 
