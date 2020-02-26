@@ -5,6 +5,9 @@ class Scraper
 
   def self.scrape_index_page(index_url)
     page = Nokogori::HTML(open(index_url))
+    students = []
+    
+    
     
   end
 
