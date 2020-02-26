@@ -15,6 +15,7 @@ class Student
     students_array.each do |student_hash| 
       Student.new(student_hash)
   end
+  end
 
   def add_student_attributes(attributes_hash)
     self.send("twitter=", attributes_hash[:twitter])
